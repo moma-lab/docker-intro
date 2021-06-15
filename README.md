@@ -50,7 +50,7 @@
 
 ### More practical
 - docker packages and runs applications in a standardized virtual unit, called "container"
-- a docker container encapsulates everything an application needs to run (and only those things!), including libraries, system tools, code, and runtime.
+- a docker container **encapsulates everything an application needs to run** (and only those things!). This includes libraries, system tools, code and runtime, where:
     - containers are isolated system processes on a host and are separated from one another (that's why they bundle their own software, libraries and configuration files)
     - containers can communicate with each other through well-defined channels
 
